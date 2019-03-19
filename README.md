@@ -1,5 +1,7 @@
 # currency-converter-php
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3264ccf4e75344c6954358c33b361edc)](https://app.codacy.com/app/jeanvcastro/currency-converter-php?utm_source=github.com&utm_medium=referral&utm_content=jeanvcastro/currency-converter-php&utm_campaign=Badge_Grade_Settings)
+
 This project implements a simple function to convert currencies using open APIs that do not require access keys
 
 ## Usage
