@@ -92,7 +92,7 @@ class CurrencyConverter
                 $result = curl_exec($ch);
                 curl_close($ch);
                 $result = json_decode($result, true);
-                if(is_null($result)){
+                if($result === null){
                     throw new \Exception();
                 }
                 return static::formatResult($result); // handles the result according to the selected API
